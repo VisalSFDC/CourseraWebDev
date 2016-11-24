@@ -1,0 +1,40 @@
+/* basic style*/
+h1 {
+	border : solid 4px;
+	background-color:grey;
+}
+
+section {
+	display: inline-block;
+	border: solid 2px;
+}
+
+.firstsection {
+	background-color: yellow;
+}
+
+.secondsection {
+	background-color: purple;
+}
+
+.thirdsection {
+	background-color: red;
+}
+
+/* desktop view */
+@media (min-width: 992px) {
+	width: 80%;
+	float: left;
+}
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+	width: 50%;
+	float: auto;
+}
+
+/* mobile view */
+@media (min-width: 767px) {
+	width: 50%;
+	float: auto;
+}
